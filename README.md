@@ -1,4 +1,4 @@
-## TECHOLIFE
+## TECHNOLIFE
 
 ![WhatsApp Image 2024-08-27 at 7 52 19 PM](https://github.com/user-attachments/assets/0a6d5dfa-c8fc-4671-ae76-f61b855f4139)
 
