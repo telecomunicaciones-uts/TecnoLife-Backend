@@ -38,6 +38,5 @@ COO: Operations specialist with a focus on efficiency and quality, responsible f
 
 ## Developers
 
-VICTOR ALEJANDRO PABON VILLAMIZAR
 BRYAN FABIAN AMAYA RIOS
 
