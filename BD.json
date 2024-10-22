@@ -1,0 +1,268 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nombre": "Juan Perez",
+        "direccion": "Calle 123, Ciudad",
+        "correo": "juan.perez@example.com",
+        "telefono": "3214567890"
+      },
+      {
+        "id": 2,
+        "nombre": "Maria Gomez",
+        "direccion": "Av. Siempre Viva 742, Ciudad",
+        "correo": "maria.gomez@example.com",
+        "telefono": "3001234567"
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos Rivera",
+        "direccion": "Carrera 45 #10-25, Ciudad",
+        "correo": "carlos.rivera@example.com",
+        "telefono": "3156781234"
+      },
+      {
+        "id": 4,
+        "nombre": "Laura Martínez",
+        "direccion": "Calle 9 #8-15, Ciudad",
+        "correo": "laura.martinez@example.com",
+        "telefono": "3115556666"
+      },
+      {
+        "id": 5,
+        "nombre": "Ana Torres",
+        "direccion": "Avenida Central 98, Ciudad",
+        "correo": "ana.torres@example.com",
+        "telefono": "3109998888"
+      }
+    ],
+    "productos": [
+      {
+        "ID_producto": 1,
+        "nombre": "Laptop Gaming",
+        "descripcion": "Laptop de alto rendimiento para videojuegos",
+        "precio": 1500,
+        "stock": 10,
+        "categoria": "Computadoras"
+      },
+      {
+        "ID_producto": 2,
+        "nombre": "Auriculares Inalámbricos",
+        "descripcion": "Auriculares Bluetooth con cancelación de ruido",
+        "precio": 120,
+        "stock": 50,
+        "categoria": "Accesorios"
+      },
+      {
+        "ID_producto": 3,
+        "nombre": "Smartphone",
+        "descripcion": "Teléfono inteligente de última generación",
+        "precio": 700,
+        "stock": 20,
+        "categoria": "Teléfonos"
+      },
+      {
+        "ID_producto": 4,
+        "nombre": "Monitor 4K",
+        "descripcion": "Monitor de alta resolución de 27 pulgadas",
+        "precio": 300,
+        "stock": 15,
+        "categoria": "Periféricos"
+      },
+      {
+        "ID_producto": 5,
+        "nombre": "Teclado Mecánico",
+        "descripcion": "Teclado mecánico RGB con switches personalizados",
+        "precio": 100,
+        "stock": 30,
+        "categoria": "Accesorios"
+      },
+      {
+        "ID_producto": 6,
+        "nombre": "Tablet Pro",
+        "descripcion": "Tablet con lápiz digital para diseño gráfico",
+        "precio": 800,
+        "stock": 12,
+        "categoria": "Tablets"
+      }
+    ],
+    "pedidos": [
+      {
+        "ID_pedido": 1,
+        "fecha_pedido": "2024-10-20",
+        "total_pedido": 1620,
+        "ID_cliente": 1
+      },
+      {
+        "ID_pedido": 2,
+        "fecha_pedido": "2024-10-21",
+        "total_pedido": 120,
+        "ID_cliente": 2
+      },
+      {
+        "ID_pedido": 3,
+        "fecha_pedido": "2024-10-22",
+        "total_pedido": 700,
+        "ID_cliente": 3
+      },
+      {
+        "ID_pedido": 4,
+        "fecha_pedido": "2024-10-23",
+        "total_pedido": 800,
+        "ID_cliente": 4
+      },
+      {
+        "ID_pedido": 5,
+        "fecha_pedido": "2024-10-24",
+        "total_pedido": 300,
+        "ID_cliente": 5
+      }
+    ],
+    "detalle_pedido": [
+      {
+        "ID_detalle": 1,
+        "cantidad": 1,
+        "precio_unitario": 1500,
+        "ID_pedido": 1,
+        "ID_producto": 1
+      },
+      {
+        "ID_detalle": 2,
+        "cantidad": 1,
+        "precio_unitario": 120,
+        "ID_pedido": 1,
+        "ID_producto": 2
+      },
+      {
+        "ID_detalle": 3,
+        "cantidad": 1,
+        "precio_unitario": 120,
+        "ID_pedido": 2,
+        "ID_producto": 2
+      },
+      {
+        "ID_detalle": 4,
+        "cantidad": 1,
+        "precio_unitario": 700,
+        "ID_pedido": 3,
+        "ID_producto": 3
+      },
+      {
+        "ID_detalle": 5,
+        "cantidad": 1,
+        "precio_unitario": 800,
+        "ID_pedido": 4,
+        "ID_producto": 6
+      },
+      {
+        "ID_detalle": 6,
+        "cantidad": 1,
+        "precio_unitario": 300,
+        "ID_pedido": 5,
+        "ID_producto": 4
+      }
+    ],
+    "pagos": [
+      {
+        "ID_pago": 1,
+        "fecha_de_pago": "2024-10-20T10:30:00",
+        "monto": 1620,
+        "ID_pedido": 1,
+        "ID_metodo": 1
+      },
+      {
+        "ID_pago": 2,
+        "fecha_de_pago": "2024-10-21T14:00:00",
+        "monto": 120,
+        "ID_pedido": 2,
+        "ID_metodo": 2
+      },
+      {
+        "ID_pago": 3,
+        "fecha_de_pago": "2024-10-22T09:15:00",
+        "monto": 700,
+        "ID_pedido": 3,
+        "ID_metodo": 3
+      },
+      {
+        "ID_pago": 4,
+        "fecha_de_pago": "2024-10-23T11:45:00",
+        "monto": 800,
+        "ID_pedido": 4,
+        "ID_metodo": 1
+      },
+      {
+        "ID_pago": 5,
+        "fecha_de_pago": "2024-10-24T08:00:00",
+        "monto": 300,
+        "ID_pedido": 5,
+        "ID_metodo": 2
+      }
+    ],
+    "metodo_de_pago": [
+      {
+        "ID_metodo": 1,
+        "tipo_metodo": "Tarjeta de Crédito",
+        "detalles_metodo": "Visa"
+      },
+      {
+        "ID_metodo": 2,
+        "tipo_metodo": "Transferencia Bancaria",
+        "detalles_metodo": "Banco Nacional"
+      },
+      {
+        "ID_metodo": 3,
+        "tipo_metodo": "Pago en Efectivo",
+        "detalles_metodo": "Pago en tienda"
+      },
+      {
+        "ID_metodo": 4,
+        "tipo_metodo": "Pago con App Móvil",
+        "detalles_metodo": "Pago por QR"
+      }
+    ],
+    "venta_credito": [
+      {
+        "ID_credito": 1,
+        "monto_total": 1500,
+        "monto_pagado": 500,
+        "saldo_pendiente": 1000,
+        "fecha_inicio": "2024-10-20",
+        "fecha_fin": "2025-10-20",
+        "ID_pedido": 1
+      },
+      {
+        "ID_credito": 2,
+        "monto_total": 700,
+        "monto_pagado": 200,
+        "saldo_pendiente": 500,
+        "fecha_inicio": "2024-10-22",
+        "fecha_fin": "2025-04-22",
+        "ID_pedido": 3
+      }
+    ],
+    "cuotas": [
+      {
+        "ID_cuota": 1,
+        "monto_cuota": 250,
+        "fecha_vencimiento": "2024-11-20",
+        "estado_cuota": "Pendiente",
+        "ID_credito": 1
+      },
+      {
+        "ID_cuota": 2,
+        "monto_cuota": 250,
+        "fecha_vencimiento": "2024-12-20",
+        "estado_cuota": "Pendiente",
+        "ID_credito": 1
+      },
+      {
+        "ID_cuota": 3,
+        "monto_cuota": 200,
+        "fecha_vencimiento": "2024-11-22",
+        "estado_cuota": "Pendiente",
+        "ID_credito": 2
+      }
+    ]
+  }
+  
