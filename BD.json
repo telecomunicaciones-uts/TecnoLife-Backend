@@ -6,6 +6,7 @@
         "direccion": "Calle 123, Ciudad",
         "correo": "juan.perez@example.com",
         "telefono": "3214567890"
+        
       },
       {
         "id": 2,
@@ -43,7 +44,9 @@
         "descripcion": "Laptop de alto rendimiento para videojuegos",
         "precio": 1500,
         "stock": 10,
-        "categoria": "Computadoras"
+        "categoria": "Computadoras",
+        "imagen": "https://www.pcware.com.co/wp-content/uploads/2023/07/Cyborg-15-A12VE-046US_0.jpg"
+        
       },
       {
         "ID_producto": 2,
@@ -51,7 +54,8 @@
         "descripcion": "Auriculares Bluetooth con cancelación de ruido",
         "precio": 120,
         "stock": 50,
-        "categoria": "Accesorios"
+        "categoria": "Accesorios",
+        "imagen": "https://tienda.movistar.com.co/media/catalog/product/cache/ebd1de6550e0d0b8d8c505e2a09b56c4/a/i/airpods01_1.jpg"
       },
       {
         "ID_producto": 3,
@@ -59,7 +63,8 @@
         "descripcion": "Teléfono inteligente de última generación",
         "precio": 700,
         "stock": 20,
-        "categoria": "Teléfonos"
+        "categoria": "Teléfonos",
+        "imagen": "https://m.media-amazon.com/images/I/61Io26sDgZL.jpg"
       },
       {
         "ID_producto": 4,
@@ -67,7 +72,8 @@
         "descripcion": "Monitor de alta resolución de 27 pulgadas",
         "precio": 300,
         "stock": 15,
-        "categoria": "Periféricos"
+        "categoria": "Periféricos",
+        "imagen": "https://i.blogs.es/05aeb2/philips4kuhd276e8vjsb/450_1000.jpeg"
       },
       {
         "ID_producto": 5,
@@ -75,7 +81,8 @@
         "descripcion": "Teclado mecánico RGB con switches personalizados",
         "precio": 100,
         "stock": 30,
-        "categoria": "Accesorios"
+        "categoria": "Accesorios",
+        "imagen": "https://m.media-amazon.com/images/I/61AJVzmC7NL.jpg"
       },
       {
         "ID_producto": 6,
@@ -83,7 +90,8 @@
         "descripcion": "Tablet con lápiz digital para diseño gráfico",
         "precio": 800,
         "stock": 12,
-        "categoria": "Tablets"
+        "categoria": "Tablets",
+        "imagen": "https://p4-ofp.static.pub/fes/cms/2023/03/28/7dch8vg9lz0tzeg74u3x9paoln4o8z319478.png"
       }
     ],
     "pedidos": [

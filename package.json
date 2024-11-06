@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "express": "^4.21.1"
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@react-navigation/stack": "^6.4.1",
+    "express": "^4.21.1",
+    "lottie-react-native": "^7.0.0",
+    "react-native-gesture-handler": "^2.20.1",
+    "react-native-reanimated": "^3.16.1"
   }
 }

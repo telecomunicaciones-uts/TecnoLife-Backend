@@ -46,4 +46,21 @@ app.get("/pagos", (req, res) => {
 // Iniciar el servidor
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
+
+
+app.post('/productos', (req, res) => {
+  const { nombre, descripcion, precio, stock, categoria } = req.body;
+  // Lógica para agregar el nuevo producto
+  res.status(201).json({ message: 'Producto agregado' });
+});
+
+
+app.delete('/productos/:id', (req, res) => {
+  const { id } = req.params;
+  // Lógica para eliminar el producto
+  res.json({ message: `Producto ${id} eliminado` });
+});
+
+
+  
 });
