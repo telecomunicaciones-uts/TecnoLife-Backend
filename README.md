@@ -36,6 +36,11 @@ COO: Operations specialist with a focus on efficiency and quality, responsible f
 
 ![WhatsApp Image 2024-08-27 at 7 30 59 PM](https://github.com/user-attachments/assets/419eac46-7d96-4e0b-b1fa-48a77a786195) 
 
+
+## Video explaining the tecnolife application - Frontend
+
+[Tecnolife Frontend](https://youtu.be/aC_hnCmTEZk?si=4kBVD9oSe2VwtNA-)
+
 ## Developers
 
 BRYAN FABIAN AMAYA RIOS
